@@ -1,7 +1,9 @@
-const Button = () => {
+import styles from './style.module.scss';
+
+const Button = ({ title }) => {
   return (
-    <a href=''>
-      Let’s connect
+    <a className={styles.btn} href='#'>
+      {title}
       <svg
         width='18'
         height='18'

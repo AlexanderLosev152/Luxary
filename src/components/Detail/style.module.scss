@@ -1,0 +1,29 @@
+.detail {
+  margin-bottom: 12.5rem;
+}
+.detailText {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: var(--grey);
+    max-width: 34.3rem;
+  }
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 200px;
+}
+
+.box {
+  display: grid;
+  gap: 2rem;
+  img {
+    object-fit: cover;
+  }
+}

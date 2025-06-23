@@ -1,8 +1,13 @@
 :root {
+  --font-family: 'ClashDisplay';
+  --second-family: 'Inter';
   --container-w: 69.1rem; //1107px;
   --container-p: 1rem;
   --section-p: 9.4rem;
 
   --bg: #000;
   --ligth: #fff;
+  --grey: #999;
+  --p-grey: #e1e1e1;
+  --border: 1px solid var(--grey);
 }

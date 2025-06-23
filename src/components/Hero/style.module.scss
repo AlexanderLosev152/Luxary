@@ -1,0 +1,28 @@
+.hero {
+  background-image: url(../../../public/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 100%;
+  height: calc(100vh - 18rem);
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  margin-top: 7.5rem;
+  h1 {
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 25%;
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--p-grey);
+    max-width: 32.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}

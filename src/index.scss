@@ -8,10 +8,33 @@
 @import './scss/fonts';
 
 body {
+  font-family: var(--font-family);
   color: var(--ligth);
   background: var(--bg);
 }
 
-.nav {
-  color: red;
+.h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 112%;
+  color: #fff;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: #fff;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--p-grey);
+}
+
+img {
+  border-radius: .6rem;
+  object-fit: cover;
 }

@@ -11,7 +11,7 @@ const Hero = () => {
           Experience the prestige of a professionally detailed car, radiating
           elegance and refinement at every turn.
         </p>
-        <Button />
+        <Button title='Let’s connect' />
       </div>
     </section>
   );
