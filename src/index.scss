@@ -1,0 +1,17 @@
+@import 'normalize.css';
+
+@import './scss/reset';
+@import './scss/vars';
+@import './scss/media';
+@import './scss/mixins';
+@import './scss/container';
+@import './scss/fonts';
+
+body {
+  color: var(--ligth);
+  background: var(--bg);
+}
+
+.nav {
+  color: red;
+}
