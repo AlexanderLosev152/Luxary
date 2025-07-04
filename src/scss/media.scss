@@ -6,7 +6,7 @@ $laptop: 64rem; // 1024px;
 $desktop: 80rem; // 1280px
 
 @mixin media($breakpoint) {
-  @media (max-width: $breakpoint) {
-    @content;
-  }
+	@media (max-width: $breakpoint) {
+		@content;
+	}
 }

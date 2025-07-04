@@ -1,0 +1,18 @@
+@import '../../scss/mixins.scss';
+.take {
+	@include grid(20rem, clamp(1rem, 10vw, 14rem));
+}
+
+.wrapper {
+	display: grid;
+	gap: 1rem;
+	div {
+		display: grid;
+		gap: 1rem;
+		h3 {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+		}
+	}
+}
