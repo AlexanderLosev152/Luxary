@@ -1,6 +1,7 @@
 .bookyour {
 	position: relative;
-	height: 500px;
+	height: 31.25rem;
+	margin-bottom: 5.125rem;
 	img {
 		position: absolute;
 		top: 0;
@@ -12,18 +13,18 @@
 }
 
 .box {
-	max-width: 550px;
-	padding-top: 102px;
-	padding-left: 100px;
+	max-width: 34.375rem;
+	padding-top: 6.375rem;
+	padding-left: 6.25rem;
 	h2 {
 		font-weight: 500;
-		font-size: 48px;
+		font-size: 3rem;
 		line-height: 112%;
 		color: #fff;
-		margin-bottom: 40px;
+		margin-bottom: 2.5rem;
 	}
 	p {
-		max-width: 350px;
-		padding-bottom: 48px;
+		max-width: 21.875rem;
+		padding-bottom: 3rem;
 	}
 }
